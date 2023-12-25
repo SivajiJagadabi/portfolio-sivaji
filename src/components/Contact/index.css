@@ -1,0 +1,210 @@
+.input-box{
+    width:100%;
+    height:35px;
+    border-radius:3px;
+
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-top:35px;
+    margin-bottom:35px;
+}
+
+.contact-form-container{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+   padding:6px;
+  
+    width:80%;
+    
+}
+
+.contact-response-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.contact{
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top:0px;
+    padding-top:0px;
+   
+}
+
+@media screen and (max-width:768px) {
+    .contact{
+        margin-top: 20px;
+    }
+    .contact-form-description{
+        font-size:15px;
+        line-height: 1.5;
+    }
+}
+
+.contact-form-description{
+    font-size:20px;
+}
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center; 
+    margin-top:0px;
+    padding-top:0px;
+}
+
+.line{
+    border-bottom:5px solid #05E7CE;
+    width: 40px;
+    border-radius:20px;
+    align-self: center;
+    margin-top:0px;
+}
+
+textarea{
+    width:410px;
+    height:210px;
+}
+
+.submit-btn{
+    width:80px;
+    height:35px;
+    border-color:aqua;
+    border-radius: 5px;
+    margin-bottom:35px;
+    margin-top:20px;
+    background-color: transparent;
+    font-weight: 700;
+    cursor:pointer;
+}
+
+.submit-btn:hover{
+    background-color: #ff57a3;
+    border:none;
+    color:white;
+}
+
+.contact-details-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding:15px;
+    padding-bottom:50px;
+    width:380px;
+}
+
+@media screen and (max-width:768px) {
+    .contact-details-container{
+    width:310px;
+    }
+}
+
+.contact-card{
+   margin-top:25px;
+    width:310px;
+    height:170px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px #05E7CE;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    
+}
+
+.contact-card2{
+    margin-top:25px;
+    width:310px;
+    height:170px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px #05E7CE;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+
+    box-shadow:0px 4px 4px 0px #ff57a3;
+}
+
+.contact-card:hover{
+    box-shadow: 0px 4px 4px 0px gray;
+    background-color: #05E7CE;
+  
+}
+
+.contact-card2:hover{
+    box-shadow: 0px 4px 4px 0px gray;
+    background-color: #ff57a3;
+  
+}
+
+.contact-icon{
+    width:70px;
+    height: 70px;;
+}
+
+.contact-icon2{
+    width:50px;
+    height: 50px;
+    margin-left:15px;
+}
+
+
+
+.mobile-card{
+   margin-left:18px;
+}
+
+
+.mobile-head{
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-bottom:7px;
+}
+
+.mobile-no{
+    font-size: 16px;
+    margin-top: 0px;
+    margin-top: 8px;
+}
+
+label{
+    margin-top:15px;
+}
+
+.map-card{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding:12px;
+    width:85%;
+}
+
+.inner-map{
+    width:100%;
+}
+
+@media screen and (max-width:768px) {
+    .map-card{
+        width:90%;
+    }
+    .text-area{
+        width:210px;
+    }
+    
+}
