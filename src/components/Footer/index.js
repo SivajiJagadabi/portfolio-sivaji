@@ -34,7 +34,7 @@ const Footer = () => {
            
             <hr className='footer-line'>
             </hr>
-            <p className='footer-text' style={{ textAlign:'center'}}>&copy; Copyright 2023, Sivaji Jagadabi</p>
+            <p className='footer-copy'>&copy; Copyright 2023, Sivaji Jagadabi</p>
             </div>
         </>
     )

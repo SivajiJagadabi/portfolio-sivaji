@@ -38,7 +38,7 @@ const Contact = () => {
         // console.log(phone)
         // console.log(name)
         // console.log(message)
-        await axios.post('myapidata.netlify.app', {
+        await axios.post('http://localhost:3001/contact', {
             email: email,
             name: name,
             phone: phone,
