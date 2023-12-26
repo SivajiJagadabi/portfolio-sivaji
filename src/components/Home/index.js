@@ -147,7 +147,7 @@ const Home = () => {
                 </div>
                 <div className='popup-container'>
                     <div className='pop-up-card'>
-                        <div>
+                        <div className='about-card'>
                             <h1 className='about-head'>Who Am I</h1>
                             <p style={{ color: '#000008' }} className='about-text'>I'm  passionate frontend developer from India and building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section | Seeking opportunities to contribute and learn in the world of web development.</p>
                             <button className='get-resume-btn'>

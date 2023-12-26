@@ -285,6 +285,12 @@ font-size: 20px;
       justify-content: center;
      padding-left: 3px;
     }
+    .about-card{
+      order:1;
+    }
+    .popup-container1{
+      order:0;
+    }
     .react-player {
       position:relative;
    
