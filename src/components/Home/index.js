@@ -107,7 +107,7 @@ const Home = () => {
         // console.log(phone)
         // console.log(name)
         // console.log(message)
-        await axios.post('https://portfolio-server-production-2db9.up.railway.app/contact', {
+        await axios.post('https://portfolio-server-production-6915.up.railway.app/contact', {
             email: email,
             name: name,
             phone: phone,
