@@ -38,7 +38,7 @@ const Contact = () => {
         // console.log(phone)
         // console.log(name)
         // console.log(message)
-        await axios.post('http://localhost:3001/contact', {
+        await axios.post('https://portfolio-server-production-2db9.up.railway.app/contact', {
             email: email,
             name: name,
             phone: phone,
